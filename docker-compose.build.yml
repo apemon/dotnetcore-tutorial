@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  training:
+    image: apemon/training
+    build:
+      context: .
+      dockerfile: training/Dockerfile
