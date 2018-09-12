@@ -3,3 +3,5 @@ version: '3.4'
 services:
   training:
     image: apemon/training
+    ports:
+    - "5000:80"
